@@ -1,0 +1,91 @@
+<?php
+include("../includes/configuracion.php");
+$link=conectarse();
+date_default_timezone_set('America/Lima');
+?>
+<div class="container-fluid">
+	<!-- Vertical Layout | With Floating Label -->
+	<div class="row clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2>
+                                Registro de Usuario
+                                <small>Nuevo Registro</small>
+                            </h2>
+                        </div>
+                        <div class="body">
+                                        <form id="frmRegistroUsuario">
+								<div class="col-lg-3 col-xs-12">
+                                    <h2 class="card-inside-title">DNI de Usuario</h2>
+                                            <div class="form-group">
+												<div class="form-line">
+                                                <input type="text" class="form-control" id="Udni" name="Udni" required placeholder="Ejemplo: 44556677">
+												</div>
+                                            </div>
+								</div>
+								<div class="col-lg-9 col-xs-12">
+                                    <h2 class="card-inside-title">Correo Electronico</h2>
+											<div class="form-group">
+												<div class="form-line">
+                                                <input type="email" class="form-control" id="Ucorreo" name="Ucorreo" required placeholder="Ejemplo: usuario@gmail.com">
+												</div>
+                                            </div>
+								</div>
+											<div class="row">
+								<div class="col-lg-6 col-xs-12">
+                                    <h2 class="card-inside-title">Nombre de Usuario</h2>
+											<div class="form-group">
+												<div class="form-line">
+                                                <input type="text" class="form-control" id="Unombre" name="Unombre" required placeholder="Ejemplo: Juan Angel">
+												</div>
+                                            </div>
+								</div>
+								<div class="col-lg-6 col-xs-12">
+                                    <h2 class="card-inside-title">Apellido de Usuario</h2>
+											<div class="form-group">
+												<div class="form-line">
+                                                <input type="text" class="form-control" id="Uapellido" name="Uapellido" required placeholder="Ejemplo: Peres Peres">
+												</div>
+                                            </div>
+								</div>
+											</div>
+								<div class="col-lg-12 col-xs-12">
+                                    <h2 class="card-inside-title">Direccion</h2>
+                                            <div class="form-group">
+												<div class="form-line">
+                                                <input type="text" class="form-control" id="Udireccion" name="Udireccion" required placeholder="Ejemplo: Jr. Ejemplo 123">
+												</div>
+                                            </div>
+								</div>
+											<div class="row">
+								<div class="col-lg-6 col-xs-12">
+                                    <h2 class="card-inside-title">Telefono</h2>
+											<div class="form-group">
+												<div class="form-line">
+                                                <input type="text" class="form-control" id="Utelefono" name="Utelefono" required placeholder="Ejemplo: 951425386">
+												</div>
+                                            </div>
+								</div>
+								<div class="col-lg-6 col-xs-12">
+                                    <h2 class="card-inside-title">Nivel de Usuario</h2>
+											<div class="form-group">
+                                                <select class="form-control" required name="Univel" id="Univel" onChange="enviarFormulario('tiendas_seleccion.php','frmRegistroUsuario','tiendas')">
+												<option value="">Seleccionar...</option>
+												<option value="admin">Administrador</option>
+												<option value="vendedor">Vendedor de Tienda</option>
+												</select>
+												<div class="help-block with-errors text-danger"></div>
+                                            </div>
+								</div>
+											</div>
+							<div id="botones">
+							<button class="btn btn-primary waves-effect" type="button" onClick="enviarFormulario('guardar_usuario.php','frmgeneral','defaultModal');enviarFormulario2('cambio_boton_compra.php','frmgeneral','botonese')" data-toggle="modal" data-target="#defaultModal">Guardar Registro de Usuario</button>
+							</div>
+                                        </form>
+                                    </div>
+                    </div>
+                </div>
+            </div>
+	<!-- Vertical Layout | With Floating Label -->
+</div>

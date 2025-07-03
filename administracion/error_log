@@ -1,0 +1,26 @@
+[29-Dec-2022 22:39:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home1/italyuti/mcword-trading.com/administracion/actualizar_precios.php on line 5
+[29-Dec-2022 22:40:39 UTC] PHP Warning:  include(../includes/numeros_a_letras_dolares.php): failed to open stream: No such file or directory in /home1/italyuti/mcword-trading.com/administracion/calculo_pago.php on line 4
+[29-Dec-2022 22:40:39 UTC] PHP Warning:  include(../includes/numeros_a_letras_dolares.php): failed to open stream: No such file or directory in /home1/italyuti/mcword-trading.com/administracion/calculo_pago.php on line 4
+[29-Dec-2022 22:40:39 UTC] PHP Warning:  include(): Failed opening '../includes/numeros_a_letras_dolares.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/italyuti/mcword-trading.com/administracion/calculo_pago.php on line 4
+[29-Dec-2022 22:40:44 UTC] PHP Warning:  include(../includes/numeros_a_letras_dolares.php): failed to open stream: No such file or directory in /home1/italyuti/mcword-trading.com/administracion/calculo_pago_cambio.php on line 4
+[29-Dec-2022 22:40:44 UTC] PHP Warning:  include(../includes/numeros_a_letras_dolares.php): failed to open stream: No such file or directory in /home1/italyuti/mcword-trading.com/administracion/calculo_pago_cambio.php on line 4
+[29-Dec-2022 22:40:44 UTC] PHP Warning:  include(): Failed opening '../includes/numeros_a_letras_dolares.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/italyuti/mcword-trading.com/administracion/calculo_pago_cambio.php on line 4
+[29-Dec-2022 22:40:44 UTC] PHP Warning:  include(../includes/numeros_a_letras_dolares.php): failed to open stream: No such file or directory in /home1/italyuti/mcword-trading.com/administracion/calculo_pago_cambio.php on line 4
+[29-Dec-2022 22:40:44 UTC] PHP Warning:  include(../includes/numeros_a_letras_dolares.php): failed to open stream: No such file or directory in /home1/italyuti/mcword-trading.com/administracion/calculo_pago_cambio.php on line 4
+[29-Dec-2022 22:40:44 UTC] PHP Warning:  include(): Failed opening '../includes/numeros_a_letras_dolares.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/italyuti/mcword-trading.com/administracion/calculo_pago_cambio.php on line 4
+[26-Jul-2023 16:33:09 America/Lima] PHP Warning:  Undefined variable $soles in /home2/meminaqt/mcword-trading.com/administracion/index.php on line 499
+[26-Jul-2023 16:33:09 America/Lima] PHP Warning:  Undefined variable $dolares in /home2/meminaqt/mcword-trading.com/administracion/index.php on line 510
+[03-Oct-2023 22:37:28 America/Lima] PHP Warning:  Undefined variable $soles in /home2/meminaqt/mcword-trading.com/administracion/index.php on line 499
+[03-Oct-2023 22:37:28 America/Lima] PHP Warning:  Undefined variable $dolares in /home2/meminaqt/mcword-trading.com/administracion/index.php on line 510
+[08-Nov-2023 06:24:46 America/Lima] PHP Warning:  Undefined variable $soles in /home2/meminaqt/mcword-trading.com/administracion/index.php on line 499
+[08-Nov-2023 06:24:46 America/Lima] PHP Warning:  Undefined variable $dolares in /home2/meminaqt/mcword-trading.com/administracion/index.php on line 510
+[06-Feb-2024 08:58:07 America/Lima] PHP Warning:  Undefined variable $soles in /home1/mcworlh9/public_html/administracion/index.php on line 499
+[06-Feb-2024 08:58:07 America/Lima] PHP Warning:  Undefined variable $dolares in /home1/mcworlh9/public_html/administracion/index.php on line 510
+[07-Feb-2024 08:58:52 America/Lima] PHP Warning:  Undefined variable $soles in /home1/mcworlh9/public_html/administracion/index.php on line 499
+[07-Feb-2024 08:58:52 America/Lima] PHP Warning:  Undefined variable $dolares in /home1/mcworlh9/public_html/administracion/index.php on line 510
+[07-Feb-2024 14:35:51 America/Lima] PHP Warning:  Undefined variable $soles in /home1/mcworlh9/public_html/administracion/index.php on line 500
+[07-Feb-2024 14:35:51 America/Lima] PHP Warning:  Undefined variable $dolares in /home1/mcworlh9/public_html/administracion/index.php on line 511
+[30-May-2024 16:38:29 America/Lima] PHP Warning:  Undefined variable $soles in /home1/mcworlh9/public_html/administracion/index.php on line 500
+[30-May-2024 16:38:29 America/Lima] PHP Warning:  Undefined variable $dolares in /home1/mcworlh9/public_html/administracion/index.php on line 511
+[17-Oct-2024 16:56:23 America/Lima] PHP Warning:  Undefined variable $soles in /home1/mcworlh9/public_html/administracion/index.php on line 500
+[17-Oct-2024 16:56:23 America/Lima] PHP Warning:  Undefined variable $dolares in /home1/mcworlh9/public_html/administracion/index.php on line 511
